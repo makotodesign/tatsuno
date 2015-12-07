@@ -22,14 +22,7 @@
 								<li class="special">
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
-								
-										</ul>
+										<?php include 'main-navi.php'; ?>
 									</div>
 								</li>
 							</ul>
@@ -39,15 +32,15 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-                            <h2>元祖ぼっかけうどん<br>たつの</h2>
-							<p>Another fine responsive<br />
-							site template freebie<br />
-							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
+                            <h2><img src="images/tatsunologo.svg" width="100px" height="auto" alt="ぼっかけうどんのたつの
+                            "></h2>
+							<!--
 							<ul class="actions">
 								<li><a href="#" class="button special">Activate</a></li>
 							</ul>
+							-->
 						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
+						<a href="#one" class="more scrolly">40年間かわらないもの</a>
 					</section>
 
 				<!-- One -->
