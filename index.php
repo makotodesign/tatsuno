@@ -34,29 +34,22 @@
 						<div class="inner">
                             <h2><img src="images/tatsunologo.svg" width="100px" height="auto" alt="ぼっかけうどんのたつの
                             "></h2>
-							<!--
 							<ul class="actions">
-								<li><a href="#" class="button special">Activate</a></li>
+                                <li class="p-right-fix"><a href="#one" class="button special scrolly">more</a></li>
+                                <li>						<a href="#one" class="more scrolly"></a>
+                                </li>
 							</ul>
-							-->
 						</div>
-						<a href="#one" class="more scrolly">40年間かわらないもの</a>
 					</section>
 
 				<!-- One -->
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+                                <h2 class="title_sub title_big p-bootom-fix m-bootom-fix">お客様の<br>「うまかったよ」<br>が聞きたくて、<br>40年間変えないものが<br>あります</h2>
+								
 							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul>
+							
 						</div>
 					</section>
 
@@ -64,9 +57,13 @@
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
 							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+                            <h2 class="title_sub title_big">国産牛肉使用<br>元祖ぼっかけうどん
+                            </h2>
+                            <p class="title_sub">創業昭和47年<br>
+                                神戸長田 牛すじ煮込み　ぼっかけ<br>
+                                新開地たつのにてぼっかけうどんが誕生して ４０年<br>
+                                神戸長田「新開地 たつの」創業 昭和47年<br>元祖の味を 守り続けて４０年<br> 
+                                選びぬかれた こだわりの  国産牛肉使用<br> 元祖ぼっかけうどん</p>
 							</div>
 						</section>
 						<section class="spotlight">
@@ -158,6 +155,7 @@
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
+            <script src="assets/js/jquery.auderoSmokeEffect.min.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 

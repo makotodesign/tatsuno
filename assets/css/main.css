@@ -1,11 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
-/*
-	Spectral by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /* Reset */
 
@@ -2641,8 +2636,11 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #330404;
 			color: #c7ebe8;
+            -webkit-box-shadow: inset 0px 5px 18px 0px rgba(0, 0, 0, 1);
+            -moz-box-shadow:    inset 0px 5px 18px 0px rgba(0, 0, 0, 1);
+            box-shadow:         inset 0px 5px 18px 0px rgba(0, 0, 0, 1);
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -3811,3 +3809,29 @@
 	}
 
 /*-----------addstyles----------------*/
+
+.title_sub {
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;   
+}
+
+.title_big {
+font-size: 2rem;
+}
+ 
+.p-bootom-fix {
+ padding-bottom:0em!important;    
+}
+
+.p-right-fix {
+    padding-right:0em!important;    
+}
+
+.m-bootom-fix {
+    margin-bottom:0em!important;    
+}
+
+/*sidemenu*/
+#menu {
+background-color: #6a1111;
+}
+    
