@@ -2798,6 +2798,12 @@
 
 		.wrapper.style3 {
 			background-color: #505393;
+            background-image:url(../../images/yoko1.png);
+            background-repeat: no-repeat;
+            -webkit-background-size: contain;            
+            background-size: contain;
+            background-position:right center;
+            background-attachment: fixed;
 			color: #d3d4e4;
 		}
 
@@ -3790,7 +3796,7 @@
 	}
 
 	body.is-mobile.landing #page-wrapper {
-		background: none;
+        background-image:url(../../images/main-image.jpg);
 	}
 
 	body.is-mobile.landing #banner,
@@ -3830,8 +3836,29 @@ font-size: 2rem;
     margin-bottom:0em!important;    
 }
 
+.text-shadow {
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.89);
+}
+
+.text-center {
+ text-align: center;   
+}
+
+.endmsg {
+position: relative;
+left:15%;    
+}
 /*sidemenu*/
 #menu {
 background-color: #6a1111;
 }
-    
+
+/*menu.php*/
+#main > header {
+background-image: url(../../images/animation.gif);
+background-repeat: no-repeat;
+-webkit-background-size: contain;
+background-size: contain;
+height:500px;
+}
+

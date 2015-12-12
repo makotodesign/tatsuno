@@ -10,13 +10,22 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body class="landing">
+    <!--fbtimeline setting-->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5&appId=630391123640614";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">元祖ぼっかけうどん　たつの</a></h1>
+                        <h1 class="title_sub"><a href="index.html">元祖ぼっかけうどん　新開地たつの</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -46,7 +55,7 @@
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-                                <h2 class="title_sub title_big p-bootom-fix m-bootom-fix">お客様の<br>「うまかったよ」<br>が聞きたくて、<br>40年間変えないものが<br>あります</h2>
+                                <h2 class="title_sub title_big p-bootom-fix m-bootom-fix">ぼっかけうどん発祥の店<br>新開地たつの<br>お客様の<br>「旨かったよ」<br>が聞きたくて、<br>40年間変えないものが<br>あります</h2>
 								
 							</header>
 							
@@ -57,27 +66,28 @@
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
 							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-                            <h2 class="title_sub title_big">国産牛肉使用<br>元祖ぼっかけうどん
+                            <h2 class="title_sub title_big">高級国産牛肉の<br>牛すじを煮込み<br>日本で初めてうどんにのせました<br>元祖ぼっかけうどん
                             </h2>
                             <p class="title_sub">創業昭和47年<br>
                                 神戸長田 牛すじ煮込み　ぼっかけ<br>
                                 新開地たつのにてぼっかけうどんが誕生して ４０年<br>
                                 神戸長田「新開地 たつの」創業 昭和47年<br>元祖の味を 守り続けて４０年<br> 
-                                選びぬかれた こだわりの  国産牛肉使用<br> 元祖ぼっかけうどん</p>
+                                選びぬかれた こだわりの  国産牛肉使用<br> 元祖ぼっかけうどん<br>
+                                
+                                </p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+                            <h2 class="title_sub title_big">うどんに初めて<br>牛すじ煮込みを入れました</h2>
+                            <p class="title_sub"> 昭和47年 神戸長田の名物 牛すじ煮込み（ぼっかけ）と新開地での立ち食いうどん店舗 出店１号店でもある 「新開地たつの」のうどんを組み合わせた ぼっかけうどんを 考案 販売開始</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+                            <h2 class="title_sub title_big">立ち食いカウンターの周りに３周<br />
+								</h2>
+                            <p class="title_sub">70年代初頭の新開地　街の賑わいとともに 立ち食いカウンターの周りに３周にもなる ぼっかけうどんを持った人の輪を作るほどの爆発的人気を博す その伝統と元祖の味を 守り続けて 40年 甲子園ららぽーと横 にて　甲子園店開店</p>
 							</div>
 						</section>
 					</section>
@@ -86,78 +96,28 @@
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+                                <h2 class="title_sub">たつの日記</h2>
+
 							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart-o">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
+							<div class="features">
+                                <div class="fb-page" data-href="https://www.facebook.com/%E6%96%B0%E9%96%8B%E5%9C%B0%E3%81%9F%E3%81%A4%E3%81%AE-1662575560652404/" data-tabs="timeline" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"></div>
+							</div>
 						</div>
 					</section>
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
+
 							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+                                <h2 class="title_sub text-center endmsg"><img src="./images/tatsuno-endmsg.svg"></h2>
 							</header>
+							<!--
 							<ul class="actions vertical">
 								<li><a href="#" class="button fit special">Activate</a></li>
 								<li><a href="#" class="button fit">Learn More</a></li>
 							</ul>
+                            -->
 						</div>
 					</section>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-            <script src="assets/js/jquery.auderoSmokeEffect.min.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+<?php include 'footer.php'; ?>

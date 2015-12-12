@@ -1,6 +1,6 @@
 <ul>
-    <li><a href="index.html" class="title_sub">トップページ</a></li>
-    <li><a href="generic.html" class="title_sub">メニュー</a></li>
-    <li><a href="elements.html" class="title_sub">道のり</a></li>
-    <li><a href="#" class="title_sub">コンタクト</a></li>
+    <li><a href="index.php" class="title_sub">トップページ</a></li>
+    <li><a href="menu.php" class="title_sub">お品書き</a></li>
+    <li><a href="access.php" class="title_sub">甲子園店情報</a></li>
+    <li><a href="contact.php" class="title_sub">コンタクト</a></li>
 </ul>
