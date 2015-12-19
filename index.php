@@ -100,17 +100,17 @@
 
 							</header>
 							<div class="features">
-                                <div class="fb-page" data-href="https://www.facebook.com/%E6%96%B0%E9%96%8B%E5%9C%B0%E3%81%9F%E3%81%A4%E3%81%AE-1662575560652404/" data-tabs="timeline" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"></div>
+                                <div class="fb-page" data-href="https://www.facebook.com/%E6%96%B0%E9%96%8B%E5%9C%B0%E3%81%9F%E3%81%A4%E3%81%AE-1662575560652404/" data-tabs="timeline" data-width="500" data-height="1000" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"></div>
 							</div>
 						</div>
 					</section>
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
-						<div class="inner">
+                        <div class="inner">
 
-							<header>
-                                <h2 class="title_sub text-center endmsg"><img src="./images/tatsuno-endmsg.svg"></h2>
+                            <header class="text-center p-right-fix margin-auto">
+                                <h2 class="title_sub inline-block p-right-fix"><img src="./images/tatsuno-endmsg.svg" width="100%"></h2>
 							</header>
 							<!--
 							<ul class="actions vertical">

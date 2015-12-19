@@ -3844,10 +3844,14 @@ font-size: 2rem;
  text-align: center;   
 }
 
-.endmsg {
-position: relative;
-left:15%;    
+.inline-block {
+display: inline-block;
 }
+.margin-auto {
+margin-left:auto;
+margin-right:auto;    
+}
+
 /*sidemenu*/
 #menu {
 background-color: #6a1111;
