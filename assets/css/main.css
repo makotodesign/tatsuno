@@ -3852,6 +3852,13 @@ margin-left:auto;
 margin-right:auto;    
 }
 
+.margin-bottom-mid {
+margin-bottom: 20px;
+}
+
+.vh80 {
+height:60vh;
+}
 /*sidemenu*/
 #menu {
 background-color: #6a1111;
